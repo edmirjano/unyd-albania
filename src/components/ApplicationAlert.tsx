@@ -1,14 +1,16 @@
 'use client';
 
 import { useState } from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function ApplicationAlert() {
   const [isVisible, setIsVisible] = useState(true);
+  const { t } = useLanguage();
 
   if (!isVisible) return null;
 
   return (
-    <section id="aplikimi" className="bg-red-400 text-white py-6">
+    <section id="aplikimi" className="bg-red-700 text-white py-6">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Left side: Icon and Content */}
@@ -23,11 +25,10 @@ export default function ApplicationAlert() {
             {/* Alert Content */}
             <div className="flex-1 min-w-0">
               <h3 className="text-lg font-semibold mb-1">
-                Aplikimet për 2025 janë mbyllur
+                {t('alert.title')}
               </h3>
               <p className="text-white text-opacity-90 text-sm">
-                Aplikimet për Programin e Delegatëve të Rinj 2026 do të hapen në fillim të vitit 2025. 
-                Regjistrohu për t&apos;u njoftuar kur të fillojë procesi i aplikimit.
+                {t('alert.description')}
               </p>
             </div>
           </div>
@@ -36,14 +37,14 @@ export default function ApplicationAlert() {
           <div className="flex items-center space-x-3 flex-shrink-0">
             {/* CTA Button */}
             <button className="bg-white text-red-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-sm whitespace-nowrap">
-              Njofto më
+              {t('alert.notifyButton')}
             </button>
 
             {/* Close Button */}
             <button
               onClick={() => setIsVisible(false)}
               className="p-2 hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors"
-              aria-label="Close alert"
+              aria-label={t('common.close')}
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />

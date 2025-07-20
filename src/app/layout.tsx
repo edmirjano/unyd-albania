@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { LanguageProvider } from '@/contexts/LanguageContext';
+import ClientLayout from '@/components/ClientLayout';
 
 export const metadata: Metadata = {
   title: "UN Youth Delegate Program Albania | UNA Albania",
@@ -37,9 +39,11 @@ export default function RootLayout({
   return (
     <html lang="sq">
       <body className="antialiased">
-        <main className="min-h-screen">
-          {children}
-        </main>
+        <LanguageProvider>
+          <ClientLayout>
+            {children}
+          </ClientLayout>
+        </LanguageProvider>
       </body>
     </html>
   );

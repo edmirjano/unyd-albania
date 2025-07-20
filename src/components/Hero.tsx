@@ -1,4 +1,10 @@
+'use client';
+
+import { useLanguage } from '@/contexts/LanguageContext';
+
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section className="bg-gradient-to-br from-blue-500 to-blue-600 text-white py-4">
       <div className="container mx-auto section-padding pt-4">
@@ -8,14 +14,16 @@ export default function Hero() {
             <div className="mb-6">
               <div className="inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-full text-sm mb-4">
                 <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
-                Aplikimet për 2025 janë mbyllur
+                {t('hero.closedNotice')}
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-                Programi i Delegatëve të Rinj të{' '}
-                <span className="text-white text-opacity-90">Kombeve të Bashkuara</span>
+                {t('hero.title')}{' '}
+                <span className="text-white text-opacity-90 block lg:inline">
+                  {t('hero.subtitle')}
+                </span>
               </h1>
               <p className="text-xl lg:text-2xl text-white text-opacity-90 mb-8">
-                Përgatitu për mundësinë më të madhe diplomatike për të rinjtë shqiptarë
+                {t('hero.description')}
               </p>
             </div>
 
@@ -23,25 +31,25 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-6 mb-8">
               <div className="text-center">
                 <div className="text-2xl lg:text-3xl font-bold">2016</div>
-                <div className="text-sm text-white text-opacity-80">Që nga viti</div>
+                <div className="text-sm text-white text-opacity-80">Since</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl lg:text-3xl font-bold">15+</div>
-                <div className="text-sm text-white text-opacity-80">Delegatë aktivë</div>
+                <div className="text-sm text-white text-opacity-80">{t('hero.stats.delegates')}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl lg:text-3xl font-bold">Global</div>
-                <div className="text-sm text-white text-opacity-80">Përfaqësim</div>
+                <div className="text-sm text-white text-opacity-80">Representation</div>
               </div>
             </div>
 
             {/* Call to Actions */}
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Regjistrohu për Njoftimet 2026
+                {t('hero.prepareButton')}
               </button>
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
-                Shiko Arkivin e Aplikimeve
+                {t('hero.learnMoreButton')}
               </button>
             </div>
           </div>
@@ -56,9 +64,11 @@ export default function Hero() {
                     <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Delegatët e Ardhshëm</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  {t('callToAction.title', 'Future Delegates')}
+                </h3>
                 <p className="text-white text-opacity-80 text-sm">
-                  Bëhu pjesë e komunitetit të delegatëve të rinj shqiptarë që përfaqësojnë vendin tonë në Kombet e Bashkuara.
+                  {t('callToAction.description', 'Join the community of young Albanian delegates representing our country at the United Nations.')}
                 </p>
               </div>
             </div>

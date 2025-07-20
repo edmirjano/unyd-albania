@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "about": "Rreth Programit",
+    "application": "Statusi i Aplikimit", 
+    "success": "Historitë e Suksesit",
+    "preparation": "Përgatitja për 2026",
+    "contact": "Kontakti"
+  },
+  "hero": {
+    "title": "Delegatët e Rinj të Kombeve të Bashkuara",
+    "subtitle": "Shqipëri 2026",
+    "description": "Bashkohu me programin prestigjioz të delegatëve të rinj dhe përfaqëso Shqipërinë në Asamblenë e Përgjithshme të Kombeve të Bashkuara.",
+    "closedNotice": "Aplikimet për 2025 janë mbyllur",
+    "prepareButton": "Përgatitu për 2026",
+    "learnMoreButton": "Mëso Më Shumë",
+    "stats": {
+      "delegates": "Delegatë të Trajnuar",
+      "years": "Vite Eksperiencë", 
+      "success": "Sukses në Karrierë",
+      "partners": "Organizata Partnere"
+    }
+  },
+  "alert": {
+    "title": "Aplikimet për 2025 janë mbyllur",
+    "description": "Aplikimet për Programin e Delegatëve të Rinj 2026 do të hapen në fillim të vitit 2025. Regjistrohu për t'u njoftuar kur të fillojë procesi i aplikimit.",
+    "notifyButton": "Njofto më"
+  },
+  "program": {
+    "title": "Rreth Programit",
+    "subtitle": "Programi i Delegatëve të Rinj të Kombeve të Bashkuara mundëson për të rinjtë shqiptarë të marrin pjesë në proceset diplomatike dhe të përfaqësojnë vendin tonë në arenën ndërkombëtare.",
+    "benefits": {
+      "title": "Përfitimet e Programit",
+      "diplomatic": {
+        "title": "Përvojë Diplomatike",
+        "description": "Mëso protokollin diplomatik dhe art e negociatave ndërkombëtare"
+      },
+      "training": {
+        "title": "Trajnim i Plotë", 
+        "description": "Përgatitje intensive në protokoll diplomatik dhe çështje globale"
+      },
+      "network": {
+        "title": "Rrjeti Global",
+        "description": "Lidhu me delegatë nga e gjithë bota dhe ndërto marrëdhënie të qëndrueshme"
+      },
+      "skills": {
+        "title": "Zhvillim Profesional",
+        "description": "Përso aftësi të reja që do të të ndihmojnë në karrierën tënde të ardhshme"
+      }
+    },
+    "mission": {
+      "title": "Në përputhje me misionin e UNA Albania",
+      "inform": "Informimi: Rritja e vetëdijes së të rinjve për çështjet globale dhe rolin e OKB-së",
+      "inspire": "Frymëzimi: Motivimi i të rinjve për të kontribuar në zgjidhjen e problemeve ndërkombëtare", 
+      "mobilize": "Mobilizimi: Përfshirja aktive e të rinjve në proceset diplomatike dhe politikëbërjen"
+    },
+    "timeline": {
+      "title": "Kronologjia e Programit",
+      "step1": {
+        "title": "Aplikimi dhe Seleksioni",
+        "period": "Janar - Mars 2026"
+      },
+      "step2": {
+        "title": "Trajnimi dhe Përgatitja", 
+        "period": "Prill - Gusht 2026"
+      },
+      "step3": {
+        "title": "Pjesëmarrja në OKB",
+        "period": "Shtator - Dhjetor 2026"
+      }
+    }
+  },
+  "delegates2024": {
+    "title": "Delegatët 2024 - Asambleja e 79-të e OKB-së",
+    "name": "Delegatët Shqiptarë 2024",
+    "position": "Delegatë të Rinisë së Shqipërisë", 
+    "focus": "Shiko fjalimin zyrtar në Facebook",
+    "committee": "Third Committee",
+    "videoTitle": "Fjalimi Zyrtar",
+    "videoDescription": "Shiko fjalimin e delegatëve shqiptarë në Asamblenë e 79-të të OKB-së",
+    "watchOnFacebook": "Shiko në Facebook"
+  },
+  "historicalDelegates": {
+    "title": "Delegatët e Viteve të Mëparshme",
+    "focus": "Fokusi",
+    "committee": "Komiteti"
+  },
+  "stats": {
+    "title": "Shifrat e Delegacionit Shqiptar",
+    "totalDelegates": "Delegatë Gjithsej",
+    "yearsParticipation": "Vite Pjesëmarrje", 
+    "activeParticipation": "Pjesëmarrje Aktive",
+    "nextApplication": "Aplikimi i Ardhshëm"
+  },
+  "callToAction": {
+    "title": "Dëshironi të Bëheni Delegat i Ardhshëm?",
+    "description": "Aplikimi për delegatët e rinisë për vitin 2026 do të hapet së shpejti. Përgatituni për një përvojë të paharrueshme në OKB!",
+    "learnMore": "Mësoni Më Shumë"
+  },
+  "successStories": {
+    "title": "Historitë e Suksesit",
+    "subtitle": "Delegatët tanë kanë arritur shumë gjëra të mëdha pas përvojës së tyre në OKB",
+    "videosTitle": "Shiko Delegatët Tanë në Aksion",
+    "watchVideo": "Shiko videon",
+    "currentPosition": "Pozicioni aktual"
+  },
+  "speeches": {
+    "title": "Fjalime të Delegatëve të Rinj Përgjatë Viteve",
+    "subtitle": "Zbuloni fjalime dhe prezantime frymëzuese të delegatëve të rinj nga Shqipëria dhe mbarë bota",
+    "banner": {
+      "title": "Fjalimi 2024 Tani Disponueshëm!",
+      "description": "Shiko fjalimin e delegatëve shqiptarë 2024 në Facebook! Për fjalime të tjera historike, kontaktoni UNA Albania në"
+    },
+    "categories": {
+      "albanian": "Fjalime të Delegatëve Shqiptarë",
+      "resources": "Resurse dhe Video Arkiv", 
+      "international": "Fjalime Inspiruese Ndërkombëtare"
+    },
+    "contact": "Kontaktoni",
+    "watch": "Shikoni",
+    "watchOnFacebook": "Shiko në Facebook",
+    "contribute": {
+      "title": "Dëshironi të Kontribuoni?",
+      "description": "Nëse keni regjistrimet e fjalimeve të delegatëve shqiptarë ose materiale tjera që mund të ndahen, na kontaktoni për t'i shtuar në arkivin tonë.",
+      "contactButton": "Kontaktoni UNA Albania",
+      "learnMoreButton": "Mësoni Më Shumë për Aplikimin"
+    }
+  },
+  "socialMedia": {
+    "title": "Bashkohu me Komunitetin Tonë",
+    "description": "Ndiq organizatat partnere dhe qëndro i informuar për të gjitha lajmet, aktivitetet dhe mundësitë e reja.",
+    "followers": "ndjekës",
+    "posts": "Postime mujore",
+    "activeDelegates": "Delegatë aktivë",
+    "experience": "Vite eksperiencë",
+    "totalFollowers": "Ndjekës total"
+  },
+  "preparation": {
+    "title": "Përgatitu për 2026",
+    "subtitle": "Fillo përgatitjen që sot për të qenë kandidat ideal për Programin e Delegatëve të Rinj 2026. Ja çfarë duhet të bësh gjatë vitit që vjen.",
+    "plan": "Plani i Përgatitjes",
+    "steps": {
+      "language": {
+        "title": "Përmirëso Aftësitë Gjuhësore",
+        "description": "Përgatitu në anglisht dhe frëngjisht - gjuhët zyrtare të OKB-së"
+      },
+      "politics": {
+        "title": "Studioje Politikën Ndërkombëtare", 
+        "description": "Zhvillo njohuri të thella për çështjet globale dhe rolin e OKB-së"
+      },
+      "experience": {
+        "title": "Zhvillo Përvojë Praktike",
+        "description": "Fito përvojë në organizata që punojnë me çështje ndërkombëtare"
+      },
+      "network": {
+        "title": "Ndërto Rrjetin Professional",
+        "description": "Lidhu me specialistë të çështjeve ndërkombëtare dhe ish-delegatë"
+      }
+    },
+    "resources": {
+      "title": "Burime për Përgatitje",
+      "documents": "Dokumente Esenciale",
+      "study": "Burime për Studim", 
+      "practical": "Mundësi Praktike"
+    },
+    "calendar": {
+      "title": "Kalendari i Aplikimit për 2026",
+      "january": "Hapja e aplikimeve",
+      "march": "Afati i fundit për aplikim",
+      "may": "Shpallja e rezultateve", 
+      "september": "Fillimi i mandatit"
+    },
+    "ready": {
+      "title": "Gati për të filluar përgatitjen?",
+      "description": "Regjistrohu për të marrë njoftimet dhe materialet e para për përgatitje.",
+      "startButton": "Fillo Përgatitjen Tani"
+    }
+  },
+  "footer": {
+    "brand": "UN Youth Delegates Albania",
+    "description": "Programi i Delegatëve të Rinj të Kombeve të Bashkuara në Shqipëri mundëson për të rinj të shqiptarë të përfaqësojnë vendin tonë në arenën ndërkombëtare.",
+    "quickLinks": "Lidhje të Shpejta",
+    "resources": "Burime", 
+    "newsletter": {
+      "title": "Qëndro i informuar për 2026",
+      "description": "Regjistrohu për të marrë njoftimet e para kur të hapen aplikimet për vitin 2026.",
+      "placeholder": "Email adresa",
+      "button": "Regjistrohu"
+    },
+    "copyright": "© 2025 UNA Albania. Të gjitha të drejtat e rezervuara.",
+    "tagline": "Faqja zyrtare e Programit të Delegatëve të Rinj të OKB-së në Shqipëri"
+  },
+  "common": {
+    "readMore": "Lexo më shumë",
+    "close": "Mbyll",
+    "loading": "Duke u ngarkuar...",
+    "error": "Ka ndodhur një gabim"
+  }
+} 

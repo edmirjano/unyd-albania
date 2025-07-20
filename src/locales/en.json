@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "about": "About the Program",
+    "application": "Application Status", 
+    "success": "Success Stories",
+    "preparation": "Preparation for 2026",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "UN Youth Delegates",
+    "subtitle": "Albania 2026",
+    "description": "Join the prestigious UN Youth Delegate program and represent Albania at the United Nations General Assembly.",
+    "closedNotice": "Applications for 2025 are closed",
+    "prepareButton": "Prepare for 2026",
+    "learnMoreButton": "Learn More",
+    "stats": {
+      "delegates": "Trained Delegates",
+      "years": "Years of Experience", 
+      "success": "Career Success",
+      "partners": "Partner Organizations"
+    }
+  },
+  "alert": {
+    "title": "Applications for 2025 are closed",
+    "description": "Applications for the 2026 UN Youth Delegate Program will open at the beginning of 2025. Register to be notified when the application process begins.",
+    "notifyButton": "Notify me"
+  },
+  "program": {
+    "title": "About the Program",
+    "subtitle": "The UN Youth Delegate Program enables young Albanians to participate in diplomatic processes and represent our country on the international stage.",
+    "benefits": {
+      "title": "Program Benefits",
+      "diplomatic": {
+        "title": "Diplomatic Experience",
+        "description": "Learn diplomatic protocol and the art of international negotiations"
+      },
+      "training": {
+        "title": "Comprehensive Training", 
+        "description": "Intensive preparation in diplomatic protocol and global issues"
+      },
+      "network": {
+        "title": "Global Network",
+        "description": "Connect with delegates from around the world and build lasting relationships"
+      },
+      "skills": {
+        "title": "Professional Development",
+        "description": "Learn new skills that will help you in your future career"
+      }
+    },
+    "mission": {
+      "title": "Aligned with UNA Albania's mission",
+      "inform": "Information: Raising youth awareness about global issues and the role of the UN",
+      "inspire": "Inspiration: Motivating young people to contribute to solving international problems", 
+      "mobilize": "Mobilization: Active involvement of youth in diplomatic processes and policy-making"
+    },
+    "timeline": {
+      "title": "Program Timeline",
+      "step1": {
+        "title": "Application and Selection",
+        "period": "January - March 2026"
+      },
+      "step2": {
+        "title": "Training and Preparation", 
+        "period": "April - August 2026"
+      },
+      "step3": {
+        "title": "UN Participation",
+        "period": "September - December 2026"
+      }
+    }
+  },
+  "delegates2024": {
+    "title": "2024 Delegates - 79th UN General Assembly",
+    "name": "Albanian Delegates 2024",
+    "position": "Albanian Youth Delegates", 
+    "focus": "Watch official speech on Facebook",
+    "committee": "Third Committee",
+    "videoTitle": "Official Speech",
+    "videoDescription": "Watch the Albanian delegates' speech at the 79th UN General Assembly",
+    "watchOnFacebook": "Watch on Facebook"
+  },
+  "historicalDelegates": {
+    "title": "Previous Years' Delegates",
+    "focus": "Focus",
+    "committee": "Committee"
+  },
+  "stats": {
+    "title": "Albanian Delegation Statistics",
+    "totalDelegates": "Total Delegates",
+    "yearsParticipation": "Years of Participation", 
+    "activeParticipation": "Active Participation",
+    "nextApplication": "Next Application"
+  },
+  "callToAction": {
+    "title": "Want to Become the Next Delegate?",
+    "description": "Applications for youth delegates for 2026 will open soon. Prepare for an unforgettable experience at the UN!",
+    "learnMore": "Learn More"
+  },
+  "successStories": {
+    "title": "Success Stories",
+    "subtitle": "Our delegates have achieved great things after their UN experience",
+    "videosTitle": "See Our Delegates in Action",
+    "watchVideo": "Watch video",
+    "currentPosition": "Current position"
+  },
+  "speeches": {
+    "title": "Youth Delegate Speeches Through the Years",
+    "subtitle": "Discover inspiring speeches and presentations by youth delegates from Albania and around the world",
+    "banner": {
+      "title": "2024 Speech Now Available!",
+      "description": "Watch the 2024 Albanian delegates' speech on Facebook! For other historical speeches, contact UNA Albania at"
+    },
+    "categories": {
+      "albanian": "Albanian Delegate Speeches",
+      "resources": "Resources and Video Archive", 
+      "international": "Inspiring International Speeches"
+    },
+    "contact": "Contact",
+    "watch": "Watch",
+    "watchOnFacebook": "Watch on Facebook",
+    "contribute": {
+      "title": "Want to Contribute?",
+      "description": "If you have recordings of Albanian delegate speeches or other materials that can be shared, contact us to add them to our archive.",
+      "contactButton": "Contact UNA Albania",
+      "learnMoreButton": "Learn More About Application"
+    }
+  },
+  "socialMedia": {
+    "title": "Join Our Community",
+    "description": "Follow partner organizations and stay informed about all news, activities, and new opportunities.",
+    "followers": "followers",
+    "posts": "Monthly posts",
+    "activeDelegates": "Active delegates",
+    "experience": "Years of experience",
+    "totalFollowers": "Total followers"
+  },
+  "preparation": {
+    "title": "Prepare for 2026",
+    "subtitle": "Start preparing today to be the ideal candidate for the 2026 UN Youth Delegate Program. Here's what you need to do during the coming year.",
+    "plan": "Preparation Plan",
+    "steps": {
+      "language": {
+        "title": "Improve Language Skills",
+        "description": "Prepare in English and French - the official languages of the UN"
+      },
+      "politics": {
+        "title": "Study International Politics", 
+        "description": "Develop deep knowledge of global issues and the role of the UN"
+      },
+      "experience": {
+        "title": "Develop Practical Experience",
+        "description": "Gain experience in organizations working on international issues"
+      },
+      "network": {
+        "title": "Build Professional Network",
+        "description": "Connect with specialists in international affairs and former delegates"
+      }
+    },
+    "resources": {
+      "title": "Preparation Resources",
+      "documents": "Essential Documents",
+      "study": "Study Resources", 
+      "practical": "Practical Opportunities"
+    },
+    "calendar": {
+      "title": "2026 Application Calendar",
+      "january": "Applications open",
+      "march": "Application deadline",
+      "may": "Results announcement", 
+      "september": "Mandate begins"
+    },
+    "ready": {
+      "title": "Ready to start preparing?",
+      "description": "Register to receive notifications and the first preparation materials.",
+      "startButton": "Start Preparing Now"
+    }
+  },
+  "footer": {
+    "brand": "UN Youth Delegates Albania",
+    "description": "The UN Youth Delegate Program in Albania enables young Albanians to represent our country on the international stage.",
+    "quickLinks": "Quick Links",
+    "resources": "Resources", 
+    "newsletter": {
+      "title": "Stay informed for 2026",
+      "description": "Register to receive early notifications when applications open for 2026.",
+      "placeholder": "Email address",
+      "button": "Register"
+    },
+    "copyright": "© 2025 UNA Albania. All rights reserved.",
+    "tagline": "Official page of the UN Youth Delegate Program in Albania"
+  },
+  "common": {
+    "readMore": "Read more",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  }
+} 
