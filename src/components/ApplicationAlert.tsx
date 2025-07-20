@@ -10,7 +10,7 @@ export default function ApplicationAlert() {
   if (!isVisible) return null;
 
   return (
-    <section id="aplikimi" className="bg-red-700 text-white py-6">
+    <section id="aplikimi" className="bg-red-300 text-red-900 py-6">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Left side: Icon and Content */}
@@ -27,7 +27,7 @@ export default function ApplicationAlert() {
               <h3 className="text-lg font-semibold mb-1">
                 {t('alert.title')}
               </h3>
-              <p className="text-white text-opacity-90 text-sm">
+              <p className="text-red-800 text-sm">
                 {t('alert.description')}
               </p>
             </div>
@@ -36,15 +36,15 @@ export default function ApplicationAlert() {
           {/* Right side: CTA Button and Close Button */}
           <div className="flex items-center space-x-3 flex-shrink-0">
             {/* CTA Button */}
-            <button className="bg-white text-red-700 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-sm whitespace-nowrap">
-              {t('alert.notifyButton')}
+            <button className="bg-red-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-red-800 transition-colors whitespace-nowrap">
+              {t('alert.cta')}
             </button>
 
             {/* Close Button */}
-            <button
+            <button 
               onClick={() => setIsVisible(false)}
-              className="p-2 hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors"
-              aria-label={t('common.close')}
+              className="flex-shrink-0 p-2 hover:bg-red-400 rounded-lg transition-colors" 
+              aria-label="Close alert"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />

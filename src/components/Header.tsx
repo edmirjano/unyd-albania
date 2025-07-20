@@ -25,19 +25,19 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#programi" className="text-gray-700 hover:text-blue-600 transition-colors text-sm">
+            <a href="#programi" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.about')}
             </a>
-            <a href="#aplikimi" className="text-gray-700 hover:text-blue-600 transition-colors text-sm">
+            <a href="#aplikimi" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.application')}
             </a>
-            <a href="#sukses" className="text-gray-700 hover:text-blue-600 transition-colors text-sm">
+            <a href="#sukses" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.success')}
             </a>
-            <a href="#pergatitja" className="text-gray-700 hover:text-blue-600 transition-colors text-sm">
+            <a href="#pergatitja" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.preparation')}
             </a>
-            <a href="#kontakti" className="text-gray-700 hover:text-blue-600 transition-colors text-sm">
+            <a href="#kontakti" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.contact')}
             </a>
             
@@ -50,7 +50,7 @@ export default function Header() {
               href="https://unaalbania.org" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="btn-primary text-sm"
+              className="btn-primary text-sm whitespace-nowrap"
             >
               UNA Albania
             </a>
