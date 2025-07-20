@@ -119,13 +119,13 @@ export default function YouthDelegateSpeeches() {
     }
   ];
 
-  const getStatusColor = (status) => {
+  const getStatusColor = (status: string) => {
     if (status.includes("Aktiv")) return "bg-green-100 text-green-800";
     if (status.includes("pritje")) return "bg-yellow-100 text-yellow-800";
     return "bg-blue-100 text-blue-800";
   };
 
-  const getTypeIcon = (type) => {
+  const getTypeIcon = (type: string) => {
     switch (type) {
       case "Video":
         return (
@@ -269,7 +269,7 @@ export default function YouthDelegateSpeeches() {
               Dëshironi të Kontribuoni?
             </h3>
             <p className="text-indigo-100 mb-6 max-w-2xl mx-auto">
-              Nëse keni regjistrimet e fjalimeve të delegatëve shqiptarë ose materiale tjera që mund të ndahen, na kontaktoni për t'i shtuar në arkivin tonë.
+              Nëse keni regjistrimet e fjalimeve të delegatëve shqiptarë ose materiale tjera që mund të ndahen, na kontaktoni për t&apos;i shtuar në arkivin tonë.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 

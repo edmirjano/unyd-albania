@@ -25,10 +25,14 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 // Helper function to get nested object value by dot notation
-function getNestedValue(obj: any, path: string): string {
-  return path.split('.').reduce((current, key) => {
-    return current && current[key] !== undefined ? current[key] : undefined;
+function getNestedValue(obj: Record<string, unknown>, path: string): string {
+  const result = path.split('.').reduce((current: unknown, key: string) => {
+    return current && typeof current === 'object' && current !== null && key in current 
+      ? (current as Record<string, unknown>)[key] 
+      : undefined;
   }, obj);
+  
+  return typeof result === 'string' ? result : '';
 }
 
 // Language Provider
