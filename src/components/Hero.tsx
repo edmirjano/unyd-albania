@@ -46,10 +46,10 @@ export default function Hero() {
             {/* Call to Actions */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="#pergatitja" 
+                href="#kandidatet-2025" 
                 className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center inline-block"
               >
-                {t('hero.prepareButton')}
+                {t('hero.candidatesButton')}
               </a>
               <a 
                 href="#programi" 
