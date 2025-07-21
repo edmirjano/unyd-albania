@@ -36,9 +36,12 @@ export default function ApplicationAlert() {
           {/* Right side: CTA Button and Close Button */}
           <div className="flex items-center space-x-3 flex-shrink-0">
             {/* CTA Button */}
-            <button className="bg-red-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-red-800 transition-colors whitespace-nowrap">
+            <a 
+              href="#pergatitja" 
+              className="bg-red-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-red-800 transition-colors whitespace-nowrap inline-block"
+            >
               {t('alert.cta')}
-            </button>
+            </a>
 
             {/* Close Button */}
             <button 

@@ -1,4 +1,9 @@
+'use client';
+
+import { useLanguage } from '@/contexts/LanguageContext';
+
 export default function YouthDelegateSpeeches() {
+  const { t } = useLanguage();
   const speechCategories = [
     {
       title: "Fjalime të Delegatëve Shqiptarë",
@@ -284,10 +289,10 @@ export default function YouthDelegateSpeeches() {
                 </svg>
               </a>
               <a 
-                href="#preparation2026" 
+                href="#pergatitja" 
                 className="inline-flex items-center px-6 py-3 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-400 transition-colors duration-200"
               >
-                Mësoni Më Shumë për Aplikimin
+                {t('delegates.contribute.learnMoreButton')}
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                 </svg>

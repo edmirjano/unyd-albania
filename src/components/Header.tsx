@@ -11,15 +11,15 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between h-20 py-4">
+        <div className="flex items-center justify-between h-20 pt-4">
           {/* Logo and Brand */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 flex-shrink-0 pr-4">
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-base">UN</span>
             </div>
-            <div>
-              <h1 className="text-lg font-semibold text-gray-900">UN Youth Delegates</h1>
-              <p className="text-xs text-gray-600">UNA Albania</p>
+            <div className="min-w-0">
+              <h1 className="text-lg font-semibold text-gray-900 whitespace-nowrap">UN Youth Delegates</h1>
+              <p className="text-xs text-gray-600 whitespace-nowrap">UNA Albania</p>
             </div>
           </div>
 
@@ -28,8 +28,8 @@ export default function Header() {
             <a href="#programi" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.about')}
             </a>
-            <a href="#aplikimi" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
-              {t('nav.application')}
+            <a href="#kandidatet-2025" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
+              {t('nav.candidates')}
             </a>
             <a href="#sukses" className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap">
               {t('nav.success')}
@@ -99,11 +99,11 @@ export default function Header() {
                 {t('nav.about')}
               </a>
               <a 
-                href="#aplikimi" 
+                href="#kandidatet-2025" 
                 className="text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                {t('nav.application')}
+                {t('nav.candidates')}
               </a>
               <a 
                 href="#sukses" 

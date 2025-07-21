@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import ApplicationAlert from '@/components/ApplicationAlert';
 import ProgramOverview from '@/components/ProgramOverview';
+import CurrentCandidates from '@/components/CurrentCandidates';
 import MeetLastYearDelegates from '@/components/MeetLastYearDelegates';
 import SuccessStories from '@/components/SuccessStories';
 import YouthDelegateSpeeches from '@/components/YouthDelegateSpeeches';
@@ -14,8 +14,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <ApplicationAlert />
       <ProgramOverview />
+      <CurrentCandidates />
       <MeetLastYearDelegates />
       <SuccessStories />
       <YouthDelegateSpeeches />

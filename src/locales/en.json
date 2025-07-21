@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "About the Program",
+    "candidates": "2025 Candidates",
     "application": "Application Status", 
     "success": "Success Stories",
     "preparation": "Preparation for 2026",
@@ -23,6 +24,7 @@
   "alert": {
     "title": "Applications for 2025 are closed",
     "description": "Applications for the 2026 UN Youth Delegate Program will open at the beginning of 2025. Register to be notified when the application process begins.",
+    "cta": "Notify me",
     "notifyButton": "Notify me"
   },
   "program": {
@@ -188,6 +190,18 @@
     },
     "copyright": "© 2025 UNA Albania. All rights reserved.",
     "tagline": "Official page of the UN Youth Delegate Program in Albania"
+  },
+  "candidates": {
+    "badge": "2025 Candidates",
+    "title": "Meet This Year's Candidates",
+    "description": "Young Albanians competing to represent Albania at the UN General Assembly in 2025.",
+    "interests": "Key Interests",
+    "cta": {
+      "title": "Want to Be Part of the Program?",
+      "description": "Applications for 2026 will open soon. Register to receive early notifications.",
+      "prepare": "Prepare for Application",
+      "contact": "Contact UNA Albania"
+    }
   },
   "common": {
     "readMore": "Read more",

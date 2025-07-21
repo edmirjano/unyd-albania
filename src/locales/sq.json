@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Rreth Programit",
+    "candidates": "Kandidatët 2025",
     "application": "Statusi i Aplikimit", 
     "success": "Historitë e Suksesit",
     "preparation": "Përgatitja për 2026",
@@ -23,6 +24,7 @@
   "alert": {
     "title": "Aplikimet për 2025 janë mbyllur",
     "description": "Aplikimet për Programin e Delegatëve të Rinj 2026 do të hapen në fillim të vitit 2025. Regjistrohu për t'u njoftuar kur të fillojë procesi i aplikimit.",
+    "cta": "Njofto më",
     "notifyButton": "Njofto më"
   },
   "program": {
@@ -188,6 +190,18 @@
     },
     "copyright": "© 2025 UNA Albania. Të gjitha të drejtat e rezervuara.",
     "tagline": "Faqja zyrtare e Programit të Delegatëve të Rinj të OKB-së në Shqipëri"
+  },
+  "candidates": {
+    "badge": "Kandidatët 2025",
+    "title": "Njihuni me Kandidatët e Këtij Viti",
+    "description": "Të rinjtë shqiptarë që konkurrojnë për të përfaqësuar Shqipërinë në Asamblenë e Përgjithshme të OKB-së për vitin 2025.",
+    "interests": "Interesa Kryesore",
+    "cta": {
+      "title": "Dëshiron të Jesh Pjesë e Programit?",
+      "description": "Aplikimi për vitin 2026 do të hapet së shpejti. Regjistrohuni për të marrë njoftimet e para.",
+      "prepare": "Përgatitu për Aplikim",
+      "contact": "Kontaktoni UNA Albania"
+    }
   },
   "common": {
     "readMore": "Lexo më shumë",

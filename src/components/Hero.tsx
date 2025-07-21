@@ -6,7 +6,7 @@ export default function Hero() {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-gradient-to-br from-blue-500 to-blue-600 text-white py-4">
+    <section className="bg-gradient-to-br from-blue-500 to-blue-600 text-white pt-4">
       <div className="container mx-auto section-padding pt-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -45,24 +45,32 @@ export default function Hero() {
 
             {/* Call to Actions */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              <a 
+                href="#pergatitja" 
+                className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center inline-block"
+              >
                 {t('hero.prepareButton')}
-              </button>
-              <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              </a>
+              <a 
+                href="#programi" 
+                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center inline-block"
+              >
                 {t('hero.learnMoreButton')}
-              </button>
+              </a>
             </div>
           </div>
 
           {/* Right Content - Hero Image */}
           <div className="relative fade-in">
             <div className="relative z-10">
-              {/* Placeholder for hero image */}
-              <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl p-8 border border-white border-opacity-30">
-                <div className="aspect-square bg-white bg-opacity-30 rounded-xl mb-6 flex items-center justify-center">
-                  <svg className="w-24 h-24 text-white text-opacity-60" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clipRule="evenodd" />
-                  </svg>
+              {/* UN General Assembly Hall Image */}
+              <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl p-4 border border-white border-opacity-30">
+                <div className="aspect-[4/3] rounded-xl overflow-hidden mb-6">
+                  <img 
+                    src="/un-general-assembly.jpg"
+                    alt="UN General Assembly Hall"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">
                   {t('callToAction.title', 'Future Delegates')}
